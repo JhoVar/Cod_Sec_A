@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-col">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Codigo_Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo">Codigo Secreto</h1>
+    
+    <main class="main">
+        <section class="form_box">
+            <form action="">
+                <label for="input_texto">Solo letras minúsculas, sin asento</label>
+                <input class="text_input" type="text" name="input_texto" id="input_texto" placeholder="Ingrese el texto aqui">
+                <input type="btn" type="submit" value="encriptar!" id="btn-encriptar">
+                <input type="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+            </form>
+        </section>
+        <section class="msg_box">
+            <h2 id="">Mensaje Encriptado:</h2>
+            <input class="text_input" type="text" id="msg"></input>
+            <input class="btn" type="submit" value="copiar" id="btn_copy">
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

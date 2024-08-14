@@ -1,0 +1,37 @@
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo {
+
+}
+
+.main {
+
+}
+
+.form_box {
+
+}
+
+.text_input {
+
+}
+
+.msg_box {
+
+}
+
+.btn {
+    
+}
